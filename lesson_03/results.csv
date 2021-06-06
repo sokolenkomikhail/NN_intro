@@ -1,0 +1,944 @@
+NumLayers,ParamLayers,HiddenActivation,OutputActivation,Optimizer,Loss,TotalParams,BestEpoch,BestScore
+0,(),linear,linear,SGD,mae,14,100,-0.1702
+0,(),linear,linear,SGD,mse,14,100,0.6321
+0,(),linear,linear,SGD,mape,14,100,0.2162
+0,(),linear,linear,RMSprop,mae,14,100,-2.602
+0,(),linear,linear,RMSprop,mse,14,100,-2.6139
+0,(),linear,linear,RMSprop,mape,14,100,-2.6292
+0,(),linear,linear,adam,mae,14,100,-2.6633
+0,(),linear,linear,adam,mape,14,100,-2.7495
+0,(),linear,relu,SGD,mape,14,100,0.2162
+0,(),linear,relu,RMSprop,mae,14,100,-2.602
+0,(),linear,relu,RMSprop,mse,14,100,-2.6139
+0,(),linear,relu,RMSprop,mape,14,100,-2.6292
+0,(),linear,relu,adam,mae,14,100,-2.6633
+0,(),linear,relu,adam,mape,14,100,-2.7495
+0,(),linear,elu,SGD,mae,14,100,-0.1702
+0,(),linear,elu,SGD,mse,14,100,0.6321
+0,(),linear,elu,SGD,mape,14,100,0.2162
+0,(),linear,elu,RMSprop,mae,14,100,-2.602
+0,(),linear,elu,RMSprop,mse,14,100,-2.6139
+0,(),linear,elu,RMSprop,mape,14,100,-2.6292
+0,(),linear,elu,adam,mae,14,100,-2.6633
+0,(),relu,linear,SGD,mae,14,100,-0.1702
+0,(),relu,linear,SGD,mse,14,100,0.6321
+0,(),relu,linear,SGD,mape,14,100,0.2162
+0,(),relu,linear,RMSprop,mae,14,100,-2.602
+0,(),relu,linear,RMSprop,mse,14,100,-2.6139
+0,(),relu,linear,RMSprop,mape,14,100,-2.6292
+0,(),relu,linear,adam,mse,14,100,-2.7942
+0,(),relu,linear,adam,mape,14,100,-2.7495
+0,(),relu,relu,SGD,mse,14,100,0.6321
+0,(),relu,relu,RMSprop,mae,14,100,-2.602
+0,(),relu,relu,RMSprop,mse,14,100,-2.6139
+0,(),relu,relu,RMSprop,mape,14,100,-2.6292
+0,(),relu,relu,adam,mae,14,100,-2.6633
+0,(),relu,relu,adam,mape,14,100,-2.7495
+0,(),relu,elu,SGD,mse,14,100,0.6321
+0,(),relu,elu,SGD,mape,14,100,0.2162
+0,(),relu,elu,adam,mae,14,100,-2.6633
+0,(),relu,elu,adam,mse,14,100,-2.7942
+0,(),relu,elu,adam,mape,14,100,-2.7495
+0,(),elu,linear,SGD,mse,14,100,0.6321
+0,(),elu,linear,SGD,mape,14,100,0.2162
+0,(),elu,linear,RMSprop,mae,14,100,-2.602
+0,(),elu,linear,RMSprop,mse,14,100,-2.6139
+0,(),elu,linear,RMSprop,mape,14,100,-2.6292
+0,(),elu,linear,adam,mae,14,100,-2.6633
+0,(),elu,relu,SGD,mae,14,100,-0.1702
+0,(),elu,relu,SGD,mse,14,100,0.6321
+0,(),elu,relu,SGD,mape,14,100,0.2162
+0,(),elu,relu,RMSprop,mae,14,100,-2.602
+0,(),elu,relu,RMSprop,mse,14,100,-2.6139
+0,(),elu,relu,RMSprop,mape,14,100,-2.6292
+0,(),elu,relu,adam,mae,14,100,-2.6633
+0,(),elu,relu,adam,mse,14,100,-2.7942
+0,(),elu,relu,adam,mape,14,100,-2.7495
+0,(),elu,elu,SGD,mae,14,100,-0.1702
+0,(),elu,elu,SGD,mape,14,100,0.2162
+0,(),elu,elu,RMSprop,mape,14,100,-2.6292
+0,(),elu,elu,adam,mae,14,100,-2.6633
+0,(),elu,elu,adam,mse,14,100,-2.7942
+0,(),elu,elu,adam,mape,14,100,-2.7495
+1,"(16,)",linear,relu,RMSprop,mse,241,100,0.488
+1,"(16,)",relu,linear,SGD,mae,241,100,0.6259
+1,"(16,)",relu,relu,SGD,mae,241,100,0.6274
+1,"(16,)",relu,relu,SGD,mse,241,96,0.8948
+1,"(16,)",relu,relu,adam,mse,241,100,0.2448
+1,"(16,)",relu,elu,adam,mae,241,100,0.2529
+1,"(16,)",elu,linear,SGD,mae,241,94,0.6112
+1,"(16,)",elu,linear,SGD,mse,241,95,0.8848
+1,"(16,)",elu,linear,RMSprop,mse,241,100,0.3045
+1,"(16,)",elu,linear,adam,mape,241,100,0.2142
+1,"(16,)",elu,relu,SGD,mae,241,94,0.6112
+1,"(16,)",elu,relu,SGD,mse,241,95,0.8848
+1,"(16,)",elu,relu,RMSprop,mae,241,100,0.2556
+1,"(16,)",elu,elu,adam,mae,241,100,0.2776
+1,"(32,)",linear,linear,RMSprop,mape,481,100,0.3814
+1,"(32,)",linear,relu,SGD,mse,481,1,-5.7439
+1,"(32,)",linear,relu,RMSprop,mae,481,1,-5.7439
+1,"(32,)",linear,relu,adam,mae,481,1,-5.7439
+1,"(32,)",linear,relu,adam,mape,481,1,-5.7439
+1,"(32,)",linear,elu,SGD,mae,481,94,0.623
+1,"(32,)",linear,elu,RMSprop,mape,481,100,0.3825
+1,"(32,)",linear,elu,adam,mape,481,100,0.3482
+1,"(32,)",relu,linear,SGD,mse,481,94,0.8984
+1,"(32,)",relu,relu,adam,mae,481,1,-5.7439
+1,"(32,)",relu,elu,SGD,mae,481,100,0.6236
+1,"(32,)",relu,elu,RMSprop,mape,481,100,0.2917
+1,"(32,)",relu,elu,adam,mse,481,100,0.4446
+1,"(32,)",elu,relu,SGD,mape,481,1,-5.7439
+1,"(32,)",elu,relu,RMSprop,mape,481,1,-5.7439
+1,"(64,)",linear,linear,SGD,mae,961,94,0.6328
+1,"(64,)",linear,linear,adam,mse,961,100,0.5881
+1,"(64,)",linear,relu,RMSprop,mae,961,100,0.6561
+1,"(64,)",linear,relu,adam,mape,961,100,0.4975
+1,"(64,)",linear,elu,SGD,mae,961,94,0.6339
+1,"(64,)",linear,elu,RMSprop,mape,961,94,0.5258
+1,"(64,)",linear,elu,adam,mape,961,100,0.4935
+1,"(64,)",relu,elu,RMSprop,mape,961,99,0.4433
+1,"(64,)",relu,elu,adam,mae,961,100,0.5985
+1,"(64,)",elu,linear,SGD,mse,961,95,0.8717
+1,"(64,)",elu,linear,RMSprop,mape,961,94,0.4402
+1,"(64,)",elu,linear,adam,mse,961,100,0.5124
+1,"(64,)",elu,linear,adam,mape,961,100,0.419
+1,"(64,)",elu,relu,SGD,mae,961,100,0.6071
+1,"(64,)",elu,relu,RMSprop,mape,961,94,0.4411
+1,"(64,)",elu,relu,adam,mae,961,100,0.5357
+1,"(64,)",elu,elu,RMSprop,mape,961,94,0.4391
+1,"(128,)",linear,linear,RMSprop,mae,1921,94,0.7573
+1,"(128,)",linear,relu,SGD,mae,1921,94,0.6514
+1,"(128,)",linear,relu,RMSprop,mae,1921,94,0.7615
+1,"(128,)",linear,relu,adam,mae,1921,99,0.7489
+1,"(128,)",linear,elu,RMSprop,mae,1921,94,0.7611
+1,"(128,)",linear,elu,RMSprop,mse,1921,100,0.7879
+1,"(128,)",linear,elu,adam,mape,1921,97,0.6394
+1,"(128,)",relu,relu,SGD,mae,1921,94,0.6558
+1,"(128,)",relu,relu,RMSprop,mae,1921,99,0.7131
+1,"(128,)",relu,elu,RMSprop,mae,1921,99,0.7115
+1,"(128,)",relu,elu,RMSprop,mse,1921,100,0.7795
+1,"(128,)",relu,elu,adam,mse,1921,100,0.7375
+1,"(128,)",relu,elu,adam,mape,1921,99,0.6519
+1,"(128,)",elu,linear,SGD,mae,1921,94,0.6323
+1,"(128,)",elu,linear,SGD,mse,1921,95,0.854
+1,"(128,)",elu,linear,RMSprop,mse,1921,100,0.7733
+1,"(128,)",elu,linear,RMSprop,mape,1921,94,0.619
+1,"(128,)",elu,relu,SGD,mae,1921,94,0.6326
+1,"(128,)",elu,relu,SGD,mape,1921,88,0.7176
+1,"(128,)",elu,elu,SGD,mse,1921,95,0.8537
+1,"(128,)",elu,elu,adam,mse,1921,100,0.6807
+1,"(256,)",linear,linear,RMSprop,mae,3841,94,0.7758
+1,"(256,)",linear,linear,RMSprop,mape,3841,94,0.714
+1,"(256,)",linear,relu,SGD,mse,3841,35,0.7903
+1,"(256,)",linear,elu,adam,mape,3841,97,0.7053
+1,"(256,)",relu,linear,SGD,mae,3841,94,0.6519
+1,"(256,)",relu,linear,SGD,mse,3841,96,0.9046
+1,"(256,)",relu,linear,adam,mae,3841,97,0.7728
+1,"(256,)",relu,relu,SGD,mape,3841,94,0.7875
+1,"(256,)",relu,relu,adam,mse,3841,99,0.7812
+1,"(256,)",relu,elu,SGD,mae,3841,94,0.6512
+1,"(256,)",relu,elu,RMSprop,mae,3841,94,0.7733
+1,"(256,)",relu,elu,RMSprop,mape,3841,94,0.7037
+1,"(256,)",relu,elu,adam,mape,3841,99,0.7088
+1,"(256,)",elu,linear,SGD,mse,3841,95,0.8453
+1,"(256,)",elu,linear,RMSprop,mae,3841,94,0.7633
+1,"(256,)",elu,relu,SGD,mae,3841,94,0.6336
+1,"(256,)",elu,relu,SGD,mse,3841,95,0.8434
+1,"(256,)",elu,relu,adam,mae,3841,97,0.7644
+1,"(256,)",elu,relu,adam,mse,3841,100,0.7677
+1,"(256,)",elu,elu,SGD,mape,3841,86,0.7076
+2,"(16, 16)",linear,relu,RMSprop,mae,513,94,0.7046
+2,"(16, 16)",relu,linear,SGD,mae,513,95,0.8223
+2,"(16, 16)",relu,linear,adam,mae,513,100,0.7337
+2,"(16, 16)",relu,relu,SGD,mae,513,92,0.8233
+2,"(16, 16)",relu,elu,SGD,mae,513,95,0.8219
+2,"(16, 16)",elu,linear,SGD,mape,513,100,0.8009
+2,"(16, 16)",elu,relu,adam,mse,513,100,0.5642
+2,"(16, 32)",linear,linear,adam,mape,801,99,0.6876
+2,"(16, 32)",linear,relu,SGD,mse,801,1,-5.7439
+2,"(16, 32)",relu,linear,adam,mse,801,100,0.7104
+2,"(16, 32)",relu,elu,SGD,mse,801,94,0.9009
+2,"(16, 32)",elu,linear,SGD,mse,801,79,0.8913
+2,"(16, 32)",elu,linear,adam,mse,801,100,0.7256
+2,"(16, 32)",elu,relu,adam,mae,801,99,0.729
+2,"(16, 32)",elu,elu,SGD,mse,801,79,0.8914
+2,"(16, 64)",linear,linear,RMSprop,mae,1377,94,0.775
+2,"(16, 64)",relu,linear,adam,mape,1377,97,0.7407
+2,"(16, 64)",relu,elu,RMSprop,mape,1377,94,0.6736
+2,"(16, 64)",relu,elu,adam,mse,1377,99,0.8417
+2,"(16, 64)",relu,elu,adam,mape,1377,97,0.7401
+2,"(16, 64)",elu,relu,SGD,mae,1377,94,0.7938
+2,"(16, 128)",relu,linear,adam,mae,2529,100,0.8279
+2,"(16, 128)",relu,linear,adam,mape,2529,96,0.7709
+2,"(16, 128)",relu,relu,SGD,mae,2529,94,0.8193
+2,"(16, 128)",relu,elu,SGD,mape,2529,95,0.8142
+2,"(16, 128)",relu,elu,adam,mape,2529,99,0.7734
+2,"(16, 128)",elu,relu,RMSprop,mae,2529,94,0.7209
+2,"(16, 256)",linear,linear,adam,mse,4833,98,0.7976
+2,"(16, 256)",relu,linear,RMSprop,mape,4833,94,0.79
+2,"(16, 256)",relu,elu,SGD,mse,4833,92,0.8703
+2,"(16, 256)",relu,elu,SGD,mape,4833,98,0.8358
+2,"(16, 256)",relu,elu,adam,mae,4833,98,0.8496
+2,"(16, 256)",elu,relu,adam,mape,4833,97,0.6862
+2,"(32, 32)",linear,linear,SGD,mae,1537,88,0.7759
+2,"(32, 32)",linear,linear,RMSprop,mae,1537,94,0.7784
+2,"(32, 32)",relu,linear,RMSprop,mape,1537,94,0.7335
+2,"(32, 32)",relu,relu,adam,mse,1537,100,0.839
+2,"(32, 32)",relu,elu,adam,mse,1537,100,0.8368
+2,"(32, 32)",elu,linear,SGD,mape,1537,100,0.821
+2,"(32, 32)",elu,relu,RMSprop,mape,1537,94,0.6113
+2,"(32, 64)",linear,linear,RMSprop,mse,2625,100,0.7855
+2,"(32, 64)",linear,linear,adam,mse,2625,98,0.7771
+2,"(32, 64)",linear,elu,RMSprop,mae,2625,94,0.7779
+2,"(32, 64)",relu,linear,adam,mae,2625,96,0.8309
+2,"(32, 64)",relu,relu,RMSprop,mae,2625,94,0.8223
+2,"(32, 64)",relu,relu,adam,mae,2625,99,0.8315
+2,"(32, 64)",relu,elu,RMSprop,mape,2625,94,0.7651
+2,"(32, 64)",relu,elu,adam,mae,2625,96,0.8308
+2,"(32, 64)",elu,elu,RMSprop,mse,2625,100,0.7844
+2,"(32, 64)",elu,elu,adam,mape,2625,97,0.6796
+2,"(32, 128)",linear,relu,SGD,mae,4801,85,0.7812
+2,"(32, 128)",relu,linear,RMSprop,mae,4801,94,0.827
+2,"(32, 128)",relu,relu,adam,mse,4801,100,0.8739
+2,"(32, 128)",elu,relu,SGD,mse,4801,93,0.897
+2,"(32, 128)",elu,elu,SGD,mape,4801,88,0.7864
+2,"(32, 128)",elu,elu,RMSprop,mae,4801,94,0.7685
+2,"(32, 256)",linear,linear,SGD,mae,9153,94,0.7791
+2,"(32, 256)",linear,linear,RMSprop,mse,9153,92,0.796
+2,"(32, 256)",linear,relu,RMSprop,mape,9153,94,0.7426
+2,"(32, 256)",linear,elu,SGD,mae,9153,94,0.7839
+2,"(32, 256)",elu,linear,adam,mape,9153,86,0.7062
+2,"(32, 256)",elu,elu,RMSprop,mse,9153,95,0.7969
+2,"(64, 64)",relu,relu,SGD,mae,5121,100,0.8339
+2,"(64, 64)",relu,relu,RMSprop,mse,5121,100,0.87
+2,"(64, 64)",elu,linear,SGD,mae,5121,100,0.7854
+2,"(64, 128)",linear,relu,SGD,mse,9345,1,-5.7439
+2,"(64, 128)",linear,relu,adam,mae,9345,55,0.7915
+2,"(64, 128)",relu,linear,SGD,mape,9345,98,0.874
+2,"(64, 128)",relu,linear,adam,mse,9345,100,0.8911
+2,"(64, 128)",elu,linear,RMSprop,mse,9345,100,0.8154
+2,"(64, 256)",linear,linear,SGD,mae,17793,94,0.7827
+2,"(64, 256)",linear,linear,adam,mse,17793,85,0.797
+2,"(64, 256)",linear,elu,SGD,mape,17793,94,0.7009
+2,"(64, 256)",linear,elu,adam,mae,17793,64,0.7924
+2,"(64, 256)",relu,linear,RMSprop,mape,17793,94,0.8148
+2,"(64, 256)",relu,linear,adam,mse,17793,98,0.8934
+2,"(128, 128)",linear,linear,adam,mse,18433,85,0.7963
+2,"(128, 128)",relu,linear,RMSprop,mape,18433,94,0.8264
+2,"(128, 128)",relu,elu,SGD,mae,18433,95,0.8477
+2,"(128, 128)",relu,elu,SGD,mape,18433,98,0.8753
+2,"(128, 128)",relu,elu,RMSprop,mse,18433,99,0.8914
+2,"(128, 128)",elu,linear,SGD,mse,18433,93,0.8997
+2,"(128, 128)",elu,linear,adam,mae,18433,99,0.832
+2,"(128, 128)",elu,relu,RMSprop,mape,18433,1,-5.7439
+2,"(128, 128)",elu,relu,adam,mae,18433,1,-5.7439
+2,"(128, 128)",elu,elu,SGD,mae,18433,94,0.785
+2,"(128, 128)",elu,elu,SGD,mape,18433,100,0.7824
+2,"(128, 256)",linear,linear,SGD,mape,35073,74,0.6888
+2,"(128, 256)",relu,linear,RMSprop,mse,35073,99,0.9022
+2,"(128, 256)",relu,relu,RMSprop,mape,35073,99,0.8471
+2,"(128, 256)",relu,elu,RMSprop,mse,35073,99,0.9022
+2,"(128, 256)",elu,linear,SGD,mae,35073,94,0.7841
+2,"(256, 256)",linear,relu,RMSprop,mse,69633,47,0.8014
+2,"(256, 256)",relu,linear,SGD,mse,69633,78,0.9067
+2,"(256, 256)",relu,relu,SGD,mae,69633,100,0.8416
+2,"(256, 256)",relu,elu,SGD,mse,69633,86,0.9074
+2,"(256, 256)",elu,linear,adam,mae,69633,99,0.8502
+2,"(256, 256)",elu,relu,SGD,mae,69633,94,0.7774
+2,"(256, 256)",elu,relu,adam,mape,69633,94,0.7924
+3,"(16, 16, 16)",linear,relu,adam,mse,785,100,0.795
+3,"(16, 16, 16)",relu,linear,RMSprop,mae,785,94,0.8073
+3,"(16, 16, 16)",relu,linear,RMSprop,mape,785,94,0.7384
+3,"(16, 16, 16)",relu,relu,RMSprop,mape,785,94,0.7367
+3,"(16, 16, 16)",relu,relu,adam,mse,785,99,0.8323
+3,"(16, 16, 32)",relu,linear,SGD,mse,1073,2,0.1931
+3,"(16, 16, 32)",relu,elu,SGD,mape,1073,81,0.8364
+3,"(16, 16, 32)",elu,linear,RMSprop,mse,1073,100,0.7674
+3,"(16, 16, 32)",elu,relu,SGD,mse,1073,1,-5.7439
+3,"(16, 16, 32)",elu,relu,RMSprop,mae,1073,1,-5.7439
+3,"(16, 16, 64)",linear,linear,adam,mape,1649,67,0.7186
+3,"(16, 16, 256)",linear,elu,SGD,mae,5105,94,0.7783
+3,"(16, 16, 256)",relu,relu,RMSprop,mae,5105,1,-5.7439
+3,"(16, 16, 256)",relu,elu,RMSprop,mape,5105,86,0.7892
+3,"(16, 32, 32)",relu,relu,SGD,mape,1857,88,0.8621
+3,"(16, 32, 32)",elu,elu,SGD,mae,1857,100,0.8137
+3,"(16, 32, 32)",elu,elu,RMSprop,mse,1857,100,0.8113
+3,"(16, 32, 64)",linear,relu,SGD,mae,2945,95,0.7782
+3,"(16, 32, 64)",elu,relu,RMSprop,mae,2945,94,0.7732
+3,"(16, 32, 128)",linear,linear,SGD,mae,5121,94,0.7733
+3,"(16, 32, 128)",linear,linear,SGD,mse,5121,1,
+3,"(16, 32, 128)",linear,elu,adam,mse,5121,98,0.7972
+3,"(16, 32, 128)",relu,relu,RMSprop,mae,5121,1,-5.7439
+3,"(16, 32, 256)",linear,relu,adam,mape,9473,64,0.7285
+3,"(16, 32, 256)",relu,elu,RMSprop,mse,9473,99,0.8874
+3,"(16, 32, 256)",elu,elu,adam,mape,9473,93,0.7532
+3,"(16, 64, 64)",elu,elu,SGD,mape,5537,88,0.862
+3,"(16, 64, 128)",relu,linear,SGD,mse,9761,1,-4540.7051
+3,"(16, 64, 128)",elu,elu,adam,mae,9761,99,0.8196
+3,"(16, 64, 256)",linear,linear,SGD,mse,18209,1,
+3,"(16, 64, 256)",linear,linear,RMSprop,mape,18209,74,0.7358
+3,"(16, 64, 256)",linear,relu,RMSprop,mse,18209,95,0.8009
+3,"(16, 64, 256)",linear,relu,RMSprop,mape,18209,74,0.7446
+3,"(16, 64, 256)",relu,elu,SGD,mse,18209,1,-0.4531
+3,"(16, 128, 128)",linear,linear,RMSprop,mae,19041,94,0.791
+3,"(16, 128, 128)",linear,relu,adam,mae,19041,64,0.791
+3,"(16, 128, 128)",linear,elu,RMSprop,mape,19041,94,0.7462
+3,"(16, 128, 128)",linear,elu,adam,mape,19041,34,0.7344
+3,"(16, 128, 128)",relu,relu,RMSprop,mse,19041,1,-5.7439
+3,"(16, 128, 128)",elu,elu,RMSprop,mae,19041,94,0.7944
+3,"(16, 128, 256)",relu,linear,adam,mae,35681,96,0.8705
+3,"(16, 128, 256)",relu,relu,adam,mse,35681,100,0.9071
+3,"(16, 128, 256)",elu,linear,SGD,mse,35681,77,0.9014
+3,"(16, 128, 256)",elu,relu,SGD,mape,35681,82,0.8173
+3,"(16, 256, 256)",relu,linear,SGD,mae,70625,95,0.8486
+3,"(32, 32, 32)",linear,linear,RMSprop,mape,2593,94,0.7321
+3,"(32, 32, 32)",linear,relu,SGD,mae,2593,82,0.7765
+3,"(32, 32, 32)",relu,linear,adam,mape,2593,97,0.7922
+3,"(32, 32, 64)",linear,linear,adam,mape,3681,64,0.7296
+3,"(32, 32, 64)",linear,relu,SGD,mape,3681,86,0.7156
+3,"(32, 32, 64)",relu,elu,adam,mae,3681,99,0.8462
+3,"(32, 32, 128)",relu,linear,SGD,mae,5857,100,0.8783
+3,"(32, 32, 128)",relu,relu,adam,mse,5857,1,-5.7439
+3,"(32, 32, 128)",elu,relu,SGD,mae,5857,1,-5.7439
+3,"(32, 32, 128)",elu,relu,RMSprop,mae,5857,1,-5.7439
+3,"(32, 32, 256)",elu,linear,SGD,mse,10209,93,0.9039
+3,"(32, 32, 256)",elu,linear,adam,mae,10209,95,0.7966
+3,"(32, 64, 64)",linear,linear,RMSprop,mse,6785,92,0.795
+3,"(32, 64, 64)",linear,linear,adam,mape,6785,64,0.7256
+3,"(32, 64, 64)",linear,elu,RMSprop,mae,6785,94,0.7879
+3,"(32, 64, 128)",linear,linear,SGD,mse,11009,1,
+3,"(32, 64, 128)",elu,linear,RMSprop,mse,11009,95,0.8492
+3,"(32, 64, 128)",elu,elu,SGD,mae,11009,100,0.7935
+3,"(32, 64, 256)",elu,linear,SGD,mse,19457,1,
+3,"(32, 128, 128)",relu,elu,RMSprop,mape,21313,94,0.8178
+3,"(32, 128, 128)",elu,linear,adam,mse,21313,100,0.8629
+3,"(32, 128, 256)",relu,linear,RMSprop,mape,37953,100,0.8456
+3,"(32, 128, 256)",elu,linear,RMSprop,mae,37953,95,0.8102
+3,"(32, 128, 256)",elu,relu,RMSprop,mape,37953,92,0.7457
+3,"(32, 256, 256)",relu,relu,adam,mape,74945,94,0.8719
+3,"(32, 256, 256)",relu,elu,SGD,mape,74945,88,0.8579
+3,"(64, 64, 64)",linear,linear,adam,mae,9281,27,0.7932
+3,"(64, 64, 64)",linear,relu,adam,mae,9281,32,0.7935
+3,"(64, 64, 64)",relu,relu,adam,mae,9281,1,-5.7439
+3,"(64, 64, 64)",elu,elu,RMSprop,mape,9281,94,0.7635
+3,"(64, 64, 128)",relu,linear,RMSprop,mae,13505,95,0.8799
+3,"(64, 64, 128)",relu,linear,adam,mae,13505,100,0.8951
+3,"(64, 64, 128)",relu,elu,RMSprop,mape,13505,94,0.8446
+3,"(64, 64, 128)",elu,linear,adam,mape,13505,94,0.7892
+3,"(64, 64, 128)",elu,relu,RMSprop,mape,13505,88,0.7541
+3,"(64, 64, 256)",linear,elu,RMSprop,mae,21953,26,0.7901
+3,"(64, 64, 256)",relu,relu,adam,mape,21953,1,-5.7439
+3,"(64, 128, 128)",linear,linear,adam,mape,25857,34,0.7465
+3,"(64, 128, 128)",relu,relu,RMSprop,mse,25857,1,-5.7439
+3,"(64, 128, 256)",linear,relu,SGD,mae,42497,90,0.7794
+3,"(64, 128, 256)",relu,linear,adam,mse,42497,91,0.9169
+3,"(64, 128, 256)",elu,relu,adam,mae,42497,95,0.8568
+3,"(64, 128, 256)",elu,relu,adam,mape,42497,94,0.8132
+3,"(64, 128, 256)",elu,elu,SGD,mae,42497,95,0.782
+3,"(64, 256, 256)",relu,relu,adam,mse,83585,94,0.9226
+3,"(64, 256, 256)",elu,elu,RMSprop,mape,83585,94,0.7752
+3,"(128, 128, 128)",relu,linear,SGD,mse,34945,11,0.3569
+3,"(128, 128, 128)",elu,elu,RMSprop,mse,34945,94,0.886
+3,"(128, 128, 128)",elu,elu,RMSprop,mape,34945,88,0.7826
+3,"(128, 256, 256)",elu,linear,adam,mae,100865,79,0.8642
+3,"(128, 256, 256)",elu,linear,adam,mape,100865,74,0.8563
+3,"(256, 256, 256)",elu,relu,RMSprop,mse,135425,94,0.9073
+3,"(256, 256, 256)",elu,elu,SGD,mape,135425,100,0.8647
+4,"(16, 16, 16, 16)",relu,relu,RMSprop,mae,1057,95,0.8441
+4,"(16, 16, 16, 32)",linear,linear,RMSprop,mae,1345,94,0.7845
+4,"(16, 16, 16, 64)",linear,linear,RMSprop,mape,1921,86,0.7131
+4,"(16, 16, 16, 64)",elu,elu,RMSprop,mae,1921,94,0.8203
+4,"(16, 16, 16, 128)",relu,relu,adam,mape,3073,94,0.8365
+4,"(16, 16, 16, 128)",elu,linear,RMSprop,mape,3073,94,0.7551
+4,"(16, 16, 16, 128)",elu,elu,adam,mse,3073,98,0.8537
+4,"(16, 16, 32, 32)",elu,elu,SGD,mae,2129,98,0.8356
+4,"(16, 16, 32, 64)",linear,elu,SGD,mse,3217,1,-6.2516
+4,"(16, 16, 32, 256)",linear,linear,RMSprop,mae,9745,85,0.7877
+4,"(16, 16, 32, 256)",relu,linear,adam,mae,9745,99,0.872
+4,"(16, 16, 64, 64)",elu,linear,SGD,mae,5809,98,0.8396
+4,"(16, 16, 64, 64)",elu,linear,adam,mae,5809,93,0.8254
+4,"(16, 16, 64, 64)",elu,linear,adam,mse,5809,100,0.8541
+4,"(16, 16, 64, 128)",elu,elu,SGD,mse,10033,1,0.0147
+4,"(16, 16, 64, 256)",linear,relu,SGD,mse,18481,1,-5.7439
+4,"(16, 16, 64, 256)",relu,relu,RMSprop,mse,18481,96,0.9181
+4,"(16, 16, 64, 256)",relu,relu,adam,mae,18481,100,0.8826
+4,"(16, 16, 128, 128)",linear,elu,SGD,mse,19313,1,-6.2516
+4,"(16, 16, 128, 128)",elu,elu,RMSprop,mae,19313,100,0.8074
+4,"(16, 16, 128, 256)",linear,elu,RMSprop,mae,35953,82,0.7872
+4,"(16, 16, 128, 256)",relu,elu,SGD,mse,35953,4,0.1087
+4,"(16, 16, 128, 256)",relu,elu,adam,mae,35953,99,0.9011
+4,"(16, 16, 128, 256)",elu,linear,RMSprop,mae,35953,100,0.8076
+4,"(16, 16, 256, 256)",linear,linear,adam,mape,70897,34,0.7404
+4,"(16, 32, 32, 32)",linear,relu,adam,mae,2913,1,-5.7439
+4,"(16, 32, 32, 32)",elu,linear,adam,mse,2913,98,0.8515
+4,"(16, 32, 32, 256)",linear,relu,adam,mse,10529,82,0.8007
+4,"(16, 32, 32, 256)",relu,linear,SGD,mape,10529,88,0.867
+4,"(16, 32, 64, 128)",linear,relu,adam,mae,11329,86,0.7893
+4,"(16, 32, 64, 128)",elu,elu,SGD,mae,11329,100,0.8418
+4,"(16, 32, 128, 128)",relu,elu,RMSprop,mae,21633,100,0.8577
+4,"(16, 32, 128, 128)",relu,elu,adam,mape,21633,96,0.831
+4,"(16, 32, 128, 128)",elu,elu,RMSprop,mae,21633,100,0.8226
+4,"(16, 32, 128, 256)",elu,elu,adam,mae,38273,97,0.8542
+4,"(16, 32, 256, 256)",linear,elu,SGD,mape,75265,73,0.72
+4,"(16, 32, 256, 256)",relu,linear,RMSprop,mape,75265,100,0.8483
+4,"(16, 32, 256, 256)",elu,elu,SGD,mse,75265,1,-6.2516
+4,"(16, 64, 64, 64)",relu,relu,adam,mae,9697,99,0.8761
+4,"(16, 64, 64, 256)",relu,elu,RMSprop,mse,22369,99,0.9237
+4,"(16, 64, 128, 256)",relu,relu,adam,mse,42913,76,0.9223
+4,"(16, 64, 128, 256)",relu,elu,adam,mae,42913,96,0.9122
+4,"(16, 64, 256, 256)",elu,linear,SGD,mae,84001,98,0.8109
+4,"(16, 128, 128, 256)",relu,linear,SGD,mae,52193,98,0.8573
+4,"(16, 128, 256, 256)",relu,linear,RMSprop,mse,101473,96,0.9242
+4,"(32, 32, 32, 32)",elu,linear,RMSprop,mae,3649,95,0.8165
+4,"(32, 32, 32, 64)",linear,elu,RMSprop,mape,4737,94,0.7403
+4,"(32, 32, 32, 64)",relu,elu,adam,mae,4737,99,0.8799
+4,"(32, 32, 32, 64)",elu,linear,SGD,mae,4737,95,0.8245
+4,"(32, 32, 32, 64)",elu,linear,RMSprop,mae,4737,95,0.8142
+4,"(32, 32, 32, 256)",linear,relu,SGD,mape,11265,73,0.7169
+4,"(32, 32, 32, 256)",linear,relu,RMSprop,mse,11265,47,0.8029
+4,"(32, 32, 32, 256)",relu,linear,SGD,mape,11265,93,0.8507
+4,"(32, 32, 32, 256)",relu,elu,SGD,mae,11265,100,0.8605
+4,"(32, 32, 32, 256)",relu,elu,RMSprop,mae,11265,99,0.8782
+4,"(32, 32, 64, 64)",relu,linear,RMSprop,mse,7841,96,0.9058
+4,"(32, 32, 64, 128)",elu,relu,RMSprop,mse,12065,94,0.8746
+4,"(32, 32, 64, 256)",elu,elu,SGD,mape,20513,91,0.8605
+4,"(32, 32, 128, 128)",linear,linear,RMSprop,mse,22369,35,0.7967
+4,"(32, 32, 128, 128)",linear,relu,RMSprop,mse,22369,47,0.8006
+4,"(32, 32, 128, 128)",linear,elu,adam,mape,22369,34,0.7439
+4,"(32, 32, 128, 256)",relu,relu,RMSprop,mse,39009,87,0.9103
+4,"(32, 32, 256, 256)",relu,elu,RMSprop,mse,76001,96,0.9333
+4,"(32, 64, 64, 256)",elu,linear,RMSprop,mae,23617,94,0.8602
+4,"(32, 64, 128, 128)",relu,linear,SGD,mae,27521,100,0.8608
+4,"(32, 64, 128, 128)",elu,relu,adam,mae,27521,79,0.8559
+4,"(32, 64, 128, 256)",relu,relu,SGD,mae,44161,98,0.8611
+4,"(32, 64, 256, 256)",linear,relu,adam,mse,85249,32,0.8039
+4,"(32, 64, 256, 256)",relu,linear,RMSprop,mse,85249,99,0.9265
+4,"(32, 64, 256, 256)",relu,relu,SGD,mape,85249,77,0.8517
+4,"(32, 64, 256, 256)",elu,relu,RMSprop,mape,85249,98,0.801
+4,"(32, 128, 128, 128)",linear,elu,RMSprop,mae,37825,32,0.791
+4,"(32, 128, 128, 128)",linear,elu,adam,mse,37825,37,0.8012
+4,"(32, 128, 128, 128)",relu,relu,adam,mse,37825,100,0.9125
+4,"(32, 128, 128, 128)",elu,linear,SGD,mae,37825,98,0.7993
+4,"(32, 128, 128, 256)",elu,elu,adam,mape,54465,94,0.8438
+4,"(32, 128, 256, 256)",linear,linear,RMSprop,mae,103745,46,0.7925
+4,"(32, 128, 256, 256)",elu,elu,SGD,mae,103745,98,0.7949
+4,"(32, 256, 256, 256)",relu,linear,SGD,mape,140737,94,0.8638
+4,"(32, 256, 256, 256)",elu,linear,SGD,mae,140737,98,0.7923
+4,"(32, 256, 256, 256)",elu,elu,SGD,mae,140737,99,0.7925
+4,"(64, 64, 64, 64)",relu,elu,SGD,mape,13441,99,0.8621
+4,"(64, 64, 64, 64)",relu,elu,adam,mae,13441,100,0.9142
+4,"(64, 64, 64, 128)",relu,linear,adam,mape,17665,89,0.8823
+4,"(64, 64, 64, 256)",linear,elu,SGD,mse,26113,1,-6.2516
+4,"(64, 64, 128, 128)",relu,elu,SGD,mae,30017,76,0.8681
+4,"(64, 64, 128, 256)",linear,elu,RMSprop,mse,46657,47,0.8004
+4,"(64, 64, 256, 256)",linear,relu,adam,mape,87745,14,0.7648
+4,"(64, 64, 256, 256)",linear,elu,SGD,mape,87745,93,0.7294
+4,"(64, 64, 256, 256)",relu,elu,SGD,mae,87745,100,0.8786
+4,"(64, 128, 128, 128)",linear,linear,RMSprop,mse,42369,35,0.7955
+4,"(64, 128, 128, 256)",linear,elu,adam,mae,59009,60,0.7968
+4,"(64, 256, 256, 256)",relu,elu,adam,mae,149377,100,0.9289
+4,"(128, 128, 128, 256)",relu,relu,adam,mae,68097,98,0.8986
+4,"(128, 128, 128, 256)",relu,relu,adam,mape,68097,89,0.8713
+4,"(128, 128, 128, 256)",elu,elu,adam,mse,68097,97,0.894
+4,"(128, 256, 256, 256)",relu,relu,adam,mape,166657,95,0.873
+4,"(128, 256, 256, 256)",elu,elu,adam,mse,166657,100,0.9007
+4,"(256, 256, 256, 256)",linear,elu,SGD,mape,201217,86,0.7229
+4,"(256, 256, 256, 256)",relu,linear,adam,mse,201217,100,0.9284
+5,"(16, 16, 16, 16, 32)",linear,relu,SGD,mae,1617,78,0.7551
+5,"(16, 16, 16, 16, 32)",elu,elu,adam,mse,1617,98,0.8784
+5,"(16, 16, 16, 16, 64)",elu,linear,RMSprop,mse,2193,99,0.8573
+5,"(16, 16, 16, 16, 256)",elu,linear,adam,mse,5649,100,0.8665
+5,"(16, 16, 16, 16, 256)",elu,elu,SGD,mae,5649,88,0.8424
+5,"(16, 16, 16, 32, 32)",linear,elu,adam,mae,2401,64,0.7937
+5,"(16, 16, 16, 32, 32)",relu,linear,SGD,mse,2401,86,-0.0198
+5,"(16, 16, 16, 32, 64)",relu,relu,SGD,mse,3489,1,-5.7439
+5,"(16, 16, 16, 32, 64)",relu,elu,SGD,mae,3489,100,0.8604
+5,"(16, 16, 16, 32, 256)",linear,linear,adam,mae,10017,79,0.786
+5,"(16, 16, 16, 64, 64)",linear,relu,RMSprop,mae,6081,93,0.7843
+5,"(16, 16, 16, 64, 256)",relu,relu,SGD,mape,18753,100,0.8659
+5,"(16, 16, 16, 64, 256)",elu,elu,RMSprop,mse,18753,95,0.866
+5,"(16, 16, 16, 128, 128)",relu,elu,RMSprop,mse,19585,95,0.9019
+5,"(16, 16, 16, 128, 256)",relu,elu,SGD,mse,36225,1,-6.2516
+5,"(16, 16, 16, 256, 256)",elu,linear,adam,mse,71169,97,0.8713
+5,"(16, 16, 32, 32, 256)",relu,relu,SGD,mse,10801,29,-0.0152
+5,"(16, 16, 32, 32, 256)",elu,linear,SGD,mape,10801,88,0.8583
+5,"(16, 16, 32, 64, 64)",linear,linear,RMSprop,mse,7377,91,0.7949
+5,"(16, 16, 32, 128, 128)",linear,relu,SGD,mse,21905,1,-5.7439
+5,"(16, 16, 64, 64, 64)",elu,relu,adam,mae,9969,99,0.8463
+5,"(16, 16, 64, 64, 128)",elu,linear,SGD,mse,14193,1,
+5,"(16, 16, 64, 64, 256)",elu,relu,SGD,mse,22641,1,-5.7439
+5,"(16, 16, 64, 128, 256)",linear,elu,SGD,mse,43185,1,
+5,"(16, 16, 64, 256, 256)",elu,elu,RMSprop,mape,84273,94,0.8016
+5,"(16, 32, 32, 32, 32)",linear,linear,SGD,mape,3969,85,0.714
+5,"(16, 32, 32, 32, 32)",linear,elu,RMSprop,mae,3969,85,0.7862
+5,"(16, 32, 32, 64, 128)",relu,relu,RMSprop,mae,12385,1,-5.7439
+5,"(16, 32, 32, 64, 128)",elu,elu,RMSprop,mae,12385,95,0.8397
+5,"(16, 32, 64, 64, 128)",relu,relu,adam,mape,15489,94,0.8823
+5,"(16, 32, 64, 64, 256)",relu,relu,SGD,mape,23937,88,0.8714
+5,"(16, 32, 64, 64, 256)",elu,linear,RMSprop,mse,23937,95,0.8812
+5,"(16, 32, 64, 128, 128)",linear,elu,RMSprop,mape,27841,61,0.7392
+5,"(16, 32, 64, 128, 128)",relu,elu,adam,mape,27841,94,0.8768
+5,"(16, 32, 64, 128, 256)",elu,elu,RMSprop,mape,44481,94,0.7786
+5,"(16, 32, 128, 128, 128)",relu,relu,adam,mae,38145,1,-5.7439
+5,"(16, 32, 128, 128, 128)",relu,elu,SGD,mape,38145,88,0.8624
+5,"(16, 32, 128, 256, 256)",elu,linear,RMSprop,mae,104065,73,0.8663
+5,"(16, 32, 256, 256, 256)",linear,linear,SGD,mape,141057,68,0.7171
+5,"(16, 64, 64, 64, 64)",linear,elu,RMSprop,mae,13857,75,0.7843
+5,"(16, 64, 128, 128, 128)",linear,elu,SGD,mae,42785,93,0.7555
+5,"(16, 64, 128, 128, 256)",linear,elu,adam,mse,59425,45,0.7969
+5,"(16, 64, 128, 128, 256)",relu,relu,SGD,mape,59425,99,0.8697
+5,"(16, 64, 256, 256, 256)",linear,linear,adam,mse,149793,38,0.7971
+5,"(16, 64, 256, 256, 256)",linear,linear,adam,mape,149793,34,0.7389
+5,"(16, 128, 128, 128, 128)",relu,linear,RMSprop,mse,52065,99,0.9329
+5,"(16, 128, 128, 128, 128)",relu,relu,SGD,mse,52065,1,-5.7439
+5,"(16, 128, 128, 128, 128)",elu,relu,RMSprop,mse,52065,87,0.9001
+5,"(16, 128, 128, 128, 256)",elu,linear,SGD,mape,68705,81,0.8699
+5,"(16, 128, 128, 128, 256)",elu,linear,adam,mape,68705,89,0.8614
+5,"(16, 128, 128, 256, 256)",linear,relu,adam,mape,117985,1,-5.7439
+5,"(16, 128, 128, 256, 256)",relu,linear,RMSprop,mae,117985,99,0.8892
+5,"(16, 128, 128, 256, 256)",relu,elu,SGD,mae,117985,94,0.8448
+5,"(16, 128, 256, 256, 256)",relu,linear,SGD,mse,167265,1,
+5,"(16, 256, 256, 256, 256)",elu,linear,RMSprop,mae,202209,80,0.8754
+5,"(32, 32, 32, 32, 32)",linear,relu,RMSprop,mae,4705,81,0.7872
+5,"(32, 32, 32, 32, 128)",linear,relu,adam,mape,7969,1,-5.7439
+5,"(32, 32, 32, 64, 64)",linear,linear,RMSprop,mae,8897,95,0.7866
+5,"(32, 32, 32, 64, 128)",linear,elu,adam,mse,13121,37,0.803
+5,"(32, 32, 32, 128, 256)",relu,linear,SGD,mae,40065,89,0.8754
+5,"(32, 32, 32, 128, 256)",relu,linear,SGD,mse,40065,29,-0.0152
+5,"(32, 32, 32, 256, 256)",linear,elu,adam,mape,77057,24,0.7448
+5,"(32, 32, 64, 64, 256)",elu,relu,RMSprop,mae,24673,94,0.8615
+5,"(32, 32, 64, 128, 128)",elu,elu,SGD,mape,28577,73,0.865
+5,"(32, 32, 128, 128, 128)",linear,elu,RMSprop,mape,38881,63,0.7537
+5,"(32, 32, 128, 128, 256)",linear,relu,SGD,mae,55521,94,0.7602
+5,"(32, 32, 128, 128, 256)",relu,elu,RMSprop,mape,55521,88,0.8611
+5,"(32, 32, 128, 256, 256)",linear,relu,RMSprop,mse,104801,57,0.7999
+5,"(32, 32, 128, 256, 256)",relu,relu,RMSprop,mae,104801,97,0.8916
+5,"(32, 32, 256, 256, 256)",linear,linear,RMSprop,mae,141793,32,0.7878
+5,"(32, 64, 64, 64, 64)",linear,elu,SGD,mae,15105,82,0.7566
+5,"(32, 64, 64, 64, 64)",linear,elu,RMSprop,mape,15105,63,0.7457
+5,"(32, 64, 64, 128, 128)",linear,elu,SGD,mae,31681,95,0.7584
+5,"(32, 64, 64, 128, 128)",relu,elu,SGD,mae,31681,93,0.8761
+5,"(32, 64, 64, 256, 256)",linear,relu,SGD,mape,89409,93,0.7351
+5,"(32, 64, 128, 128, 128)",linear,elu,adam,mae,44033,18,0.7903
+5,"(32, 64, 128, 128, 256)",relu,relu,RMSprop,mae,60673,75,0.8787
+5,"(32, 128, 128, 128, 128)",relu,linear,RMSprop,mae,54337,97,0.8822
+5,"(32, 128, 256, 256, 256)",linear,elu,SGD,mape,169537,68,0.7215
+5,"(32, 128, 256, 256, 256)",relu,elu,SGD,mse,169537,1,-6.2516
+5,"(32, 256, 256, 256, 256)",linear,relu,adam,mae,206529,28,0.798
+5,"(32, 256, 256, 256, 256)",elu,relu,adam,mse,206529,99,0.9147
+5,"(64, 64, 64, 64, 64)",linear,linear,RMSprop,mse,17601,35,0.795
+5,"(64, 64, 64, 64, 256)",elu,elu,SGD,mape,30273,80,0.8696
+5,"(64, 64, 128, 128, 128)",relu,elu,RMSprop,mse,46529,96,0.9284
+5,"(64, 64, 128, 128, 256)",elu,elu,SGD,mse,63169,1,-6.2516
+5,"(64, 64, 128, 256, 256)",relu,linear,adam,mse,112449,89,0.9326
+5,"(64, 64, 128, 256, 256)",elu,linear,adam,mape,112449,83,0.8594
+5,"(64, 128, 128, 256, 256)",elu,elu,SGD,mse,124801,1,-6.2516
+5,"(64, 128, 256, 256, 256)",linear,linear,adam,mape,174081,24,0.7522
+5,"(64, 256, 256, 256, 256)",linear,relu,SGD,mae,215169,95,0.7542
+5,"(128, 128, 128, 128, 256)",relu,linear,adam,mae,84609,100,0.9208
+5,"(128, 128, 128, 256, 256)",linear,linear,adam,mae,133889,17,0.796
+5,"(128, 128, 128, 256, 256)",linear,relu,adam,mse,133889,38,0.8034
+5,"(128, 128, 128, 256, 256)",relu,linear,adam,mae,133889,98,0.9262
+5,"(128, 128, 256, 256, 256)",elu,linear,adam,mse,183169,97,0.9098
+5,"(128, 256, 256, 256, 256)",linear,relu,adam,mse,232449,32,0.803
+5,"(128, 256, 256, 256, 256)",linear,elu,SGD,mae,232449,94,0.7667
+6,"(16, 16, 16, 16, 16, 64)",linear,elu,SGD,mae,2465,82,0.7587
+6,"(16, 16, 16, 16, 16, 64)",relu,linear,RMSprop,mse,2465,99,0.8932
+6,"(16, 16, 16, 16, 16, 128)",linear,linear,SGD,mape,3617,85,0.7151
+6,"(16, 16, 16, 16, 16, 128)",linear,elu,SGD,mae,3617,98,0.7558
+6,"(16, 16, 16, 16, 16, 128)",relu,elu,RMSprop,mae,3617,99,0.8524
+6,"(16, 16, 16, 16, 32, 64)",linear,relu,adam,mape,3761,34,0.7309
+6,"(16, 16, 16, 16, 128, 128)",linear,relu,adam,mse,19857,70,0.8003
+6,"(16, 16, 16, 16, 128, 256)",elu,elu,SGD,mape,36497,77,0.8555
+6,"(16, 16, 16, 32, 32, 32)",relu,elu,adam,mape,3457,94,0.8584
+6,"(16, 16, 16, 32, 64, 64)",elu,linear,RMSprop,mse,7649,95,0.8694
+6,"(16, 16, 16, 32, 128, 128)",linear,linear,adam,mse,22177,70,0.7929
+6,"(16, 16, 16, 32, 128, 128)",relu,elu,RMSprop,mape,22177,100,0.8508
+6,"(16, 16, 16, 32, 128, 128)",elu,elu,adam,mape,22177,95,0.8304
+6,"(16, 16, 16, 32, 128, 256)",linear,relu,adam,mape,38817,94,0.7325
+6,"(16, 16, 16, 32, 256, 256)",linear,linear,SGD,mape,75809,68,0.7191
+6,"(16, 16, 16, 64, 64, 128)",linear,linear,SGD,mape,14465,73,0.7143
+6,"(16, 16, 16, 64, 128, 128)",relu,relu,RMSprop,mape,26817,100,0.8273
+6,"(16, 16, 16, 64, 128, 256)",relu,linear,adam,mse,43457,96,0.9225
+6,"(16, 16, 32, 32, 64, 64)",relu,linear,adam,mape,8433,94,0.8597
+6,"(16, 16, 32, 32, 64, 64)",elu,linear,SGD,mape,8433,75,0.8609
+6,"(16, 16, 32, 32, 256, 256)",linear,elu,RMSprop,mae,76593,82,0.7857
+6,"(16, 16, 32, 64, 64, 64)",relu,elu,RMSprop,mse,11537,95,0.9144
+6,"(16, 16, 32, 64, 64, 128)",linear,elu,adam,mape,15761,24,0.7456
+6,"(16, 16, 64, 64, 128, 256)",linear,relu,adam,mse,47345,40,0.7994
+6,"(16, 16, 64, 64, 256, 256)",relu,relu,SGD,mae,88433,97,0.8573
+6,"(16, 16, 64, 64, 256, 256)",elu,linear,SGD,mape,88433,95,0.8503
+6,"(16, 16, 64, 64, 256, 256)",elu,elu,adam,mse,88433,98,0.8973
+6,"(16, 16, 128, 128, 128, 256)",linear,relu,RMSprop,mse,68977,91,0.7948
+6,"(16, 16, 128, 128, 128, 256)",elu,linear,adam,mse,68977,98,0.9044
+6,"(16, 16, 128, 128, 256, 256)",relu,linear,RMSprop,mape,118257,78,0.8239
+6,"(16, 16, 128, 128, 256, 256)",relu,linear,adam,mse,118257,61,0.9327
+6,"(16, 16, 128, 256, 256, 256)",linear,relu,adam,mse,167537,28,0.8003
+6,"(16, 16, 256, 256, 256, 256)",relu,elu,SGD,mape,202481,98,0.8487
+6,"(16, 32, 32, 32, 32, 64)",relu,elu,RMSprop,mse,6113,95,0.9099
+6,"(16, 32, 32, 32, 128, 256)",relu,linear,RMSprop,mse,40385,96,0.9149
+6,"(16, 32, 32, 64, 64, 64)",relu,elu,SGD,mape,12321,93,0.8521
+6,"(16, 32, 32, 64, 64, 128)",relu,elu,RMSprop,mse,16545,96,0.9116
+6,"(16, 32, 32, 64, 256, 256)",linear,elu,SGD,mape,86625,86,0.7264
+6,"(16, 32, 32, 128, 256, 256)",relu,linear,SGD,mape,105121,93,0.8481
+6,"(16, 32, 64, 64, 64, 64)",elu,linear,RMSprop,mape,15425,100,0.8032
+6,"(16, 32, 64, 64, 64, 128)",relu,linear,adam,mse,19649,96,0.9167
+6,"(16, 32, 64, 64, 64, 128)",relu,relu,SGD,mape,19649,72,0.8352
+6,"(16, 32, 64, 64, 64, 128)",elu,linear,adam,mape,19649,95,0.8572
+6,"(16, 32, 64, 64, 128, 128)",linear,relu,SGD,mape,32001,73,0.7256
+6,"(16, 32, 64, 128, 128, 256)",elu,elu,adam,mae,60993,97,0.8655
+6,"(16, 32, 128, 128, 256, 256)",relu,linear,SGD,mse,120577,52,-0.0152
+6,"(16, 32, 128, 256, 256, 256)",linear,linear,RMSprop,mae,169857,82,0.7811
+6,"(16, 32, 256, 256, 256, 256)",relu,elu,adam,mae,206849,96,0.9082
+6,"(16, 64, 64, 64, 64, 64)",linear,linear,adam,mae,18017,70,0.7897
+6,"(16, 64, 64, 64, 64, 256)",elu,linear,SGD,mape,30689,75,0.8662
+6,"(16, 64, 64, 64, 64, 256)",elu,elu,SGD,mse,30689,1,-6.2516
+6,"(16, 64, 64, 64, 128, 128)",linear,elu,RMSprop,mse,34593,94,0.7967
+6,"(16, 64, 64, 64, 128, 128)",relu,linear,RMSprop,mae,34593,99,0.8804
+6,"(16, 64, 64, 64, 128, 256)",elu,elu,RMSprop,mse,51233,93,0.9078
+6,"(16, 64, 64, 128, 128, 256)",linear,elu,SGD,mape,63585,73,0.702
+6,"(16, 64, 256, 256, 256, 256)",relu,elu,adam,mae,215585,76,0.9174
+6,"(16, 128, 128, 128, 128, 128)",relu,elu,RMSprop,mae,68577,97,0.9115
+6,"(16, 128, 128, 128, 128, 256)",relu,relu,RMSprop,mae,85217,97,0.8943
+6,"(16, 128, 128, 128, 128, 256)",relu,elu,SGD,mse,85217,1,-6.2516
+6,"(16, 128, 128, 128, 256, 256)",elu,elu,SGD,mse,134497,1,-6.2516
+6,"(16, 128, 256, 256, 256, 256)",relu,linear,SGD,mae,233057,100,0.8563
+6,"(32, 32, 32, 32, 32, 128)",linear,relu,adam,mse,9025,32,0.8041
+6,"(32, 32, 32, 32, 64, 128)",relu,relu,RMSprop,mse,14177,99,0.9157
+6,"(32, 32, 32, 32, 128, 256)",relu,linear,RMSprop,mae,41121,79,0.8887
+6,"(32, 32, 32, 32, 128, 256)",relu,relu,SGD,mape,41121,93,0.8546
+6,"(32, 32, 32, 64, 64, 64)",relu,elu,RMSprop,mse,13057,96,0.9115
+6,"(32, 32, 32, 64, 64, 128)",relu,relu,SGD,mae,17281,97,0.863
+6,"(32, 32, 32, 64, 64, 256)",linear,elu,RMSprop,mae,25729,93,0.7893
+6,"(32, 32, 32, 64, 64, 256)",relu,linear,SGD,mae,25729,99,0.8664
+6,"(32, 32, 32, 64, 64, 256)",elu,elu,adam,mse,25729,97,0.9014
+6,"(32, 32, 32, 64, 256, 256)",relu,relu,RMSprop,mse,87361,92,0.9189
+6,"(32, 32, 32, 128, 128, 256)",relu,elu,RMSprop,mae,56577,83,0.8979
+6,"(32, 32, 32, 256, 256, 256)",linear,elu,RMSprop,mse,142849,57,0.7988
+6,"(32, 32, 64, 64, 256, 256)",relu,relu,RMSprop,mape,90465,97,0.8578
+6,"(32, 32, 64, 128, 128, 128)",linear,relu,adam,mae,45089,28,0.7946
+6,"(32, 32, 64, 128, 256, 256)",relu,linear,SGD,mse,111009,29,0.12
+6,"(32, 32, 128, 128, 128, 128)",relu,linear,RMSprop,mse,55393,99,0.922
+6,"(32, 32, 128, 128, 128, 128)",relu,relu,adam,mae,55393,97,0.9093
+6,"(32, 32, 128, 128, 128, 128)",relu,elu,SGD,mse,55393,2,-3.0838
+6,"(32, 32, 128, 128, 128, 128)",elu,linear,SGD,mse,55393,1,
+6,"(32, 64, 64, 64, 64, 256)",relu,linear,RMSprop,mape,31937,98,0.8697
+6,"(32, 64, 64, 64, 64, 256)",relu,relu,SGD,mape,31937,92,0.8419
+6,"(32, 64, 64, 64, 256, 256)",relu,relu,SGD,mse,93569,1,-5.7439
+6,"(32, 64, 64, 128, 128, 128)",elu,linear,RMSprop,mape,48193,88,0.8629
+6,"(32, 64, 64, 256, 256, 256)",elu,relu,RMSprop,mae,155201,1,-5.7438
+6,"(32, 64, 128, 128, 256, 256)",linear,relu,RMSprop,mse,126465,57,0.8002
+6,"(32, 64, 128, 256, 256, 256)",linear,elu,SGD,mae,175745,93,0.7561
+6,"(32, 128, 128, 128, 128, 256)",relu,elu,adam,mse,87489,100,0.9245
+6,"(32, 128, 128, 128, 256, 256)",relu,linear,SGD,mae,136769,100,0.8722
+6,"(32, 128, 128, 256, 256, 256)",relu,linear,adam,mae,186049,89,0.916
+6,"(32, 128, 256, 256, 256, 256)",elu,linear,RMSprop,mae,235329,79,0.8726
+6,"(32, 256, 256, 256, 256, 256)",linear,elu,adam,mse,272321,20,0.8031
+6,"(32, 256, 256, 256, 256, 256)",relu,relu,adam,mae,272321,1,-5.7439
+6,"(64, 64, 64, 64, 64, 64)",linear,relu,RMSprop,mape,21761,63,0.7634
+6,"(64, 64, 128, 128, 128, 128)",relu,relu,RMSprop,mae,63041,71,0.9142
+6,"(64, 64, 256, 256, 256, 256)",elu,linear,adam,mape,219329,99,0.8721
+6,"(64, 128, 128, 128, 128, 256)",linear,relu,RMSprop,mse,92033,57,0.8015
+6,"(64, 128, 256, 256, 256, 256)",elu,relu,RMSprop,mse,239873,96,0.9197
+6,"(128, 128, 128, 128, 128, 128)",elu,linear,SGD,mape,84481,75,0.8733
+6,"(256, 256, 256, 256, 256, 256)",linear,linear,RMSprop,mae,332801,86,0.8003
+7,"(16, 16, 16, 16, 16, 16, 64)",relu,relu,adam,mae,2737,99,0.8655
+7,"(16, 16, 16, 16, 16, 16, 128)",elu,relu,adam,mae,3889,96,0.8557
+7,"(16, 16, 16, 16, 16, 32, 128)",linear,linear,SGD,mse,6209,1,
+7,"(16, 16, 16, 16, 16, 64, 256)",elu,elu,SGD,mae,19297,88,0.8587
+7,"(16, 16, 16, 16, 16, 128, 128)",elu,elu,RMSprop,mse,20129,95,0.8719
+7,"(16, 16, 16, 16, 32, 32, 32)",relu,relu,SGD,mae,3729,89,0.8565
+7,"(16, 16, 16, 16, 32, 32, 64)",linear,elu,RMSprop,mape,4817,94,0.7394
+7,"(16, 16, 16, 16, 32, 32, 256)",linear,elu,adam,mape,11345,94,0.7356
+7,"(16, 16, 16, 16, 32, 64, 256)",linear,relu,adam,mse,20593,59,0.8002
+7,"(16, 16, 16, 16, 32, 128, 128)",linear,relu,adam,mae,22449,71,0.7907
+7,"(16, 16, 16, 16, 32, 256, 256)",elu,relu,SGD,mape,76081,93,0.8615
+7,"(16, 16, 16, 16, 64, 64, 64)",elu,linear,adam,mape,10513,94,0.8444
+7,"(16, 16, 16, 16, 128, 128, 128)",relu,linear,adam,mape,36369,89,0.8467
+7,"(16, 16, 16, 16, 128, 256, 256)",linear,elu,adam,mse,102289,50,0.7925
+7,"(16, 16, 16, 32, 32, 64, 64)",relu,elu,SGD,mape,8705,69,0.8439
+7,"(16, 16, 16, 32, 32, 128, 256)",linear,relu,SGD,mae,39873,93,0.7619
+7,"(16, 16, 16, 32, 32, 128, 256)",elu,relu,SGD,mae,39873,97,0.8537
+7,"(16, 16, 16, 32, 64, 64, 64)",elu,elu,RMSprop,mae,11809,95,0.85
+7,"(16, 16, 16, 32, 128, 256, 256)",relu,elu,SGD,mae,104609,97,0.847
+7,"(16, 16, 16, 64, 64, 64, 256)",linear,relu,SGD,mae,27073,78,0.7589
+7,"(16, 16, 16, 64, 64, 64, 256)",relu,linear,SGD,mae,27073,97,0.8591
+7,"(16, 16, 16, 64, 64, 64, 256)",elu,linear,SGD,mape,27073,77,0.8534
+7,"(16, 16, 16, 64, 128, 256, 256)",relu,elu,adam,mae,109249,100,0.8808
+7,"(16, 16, 16, 128, 256, 256, 256)",relu,relu,RMSprop,mse,167809,99,0.9173
+7,"(16, 16, 16, 128, 256, 256, 256)",relu,elu,SGD,mae,167809,100,0.855
+7,"(16, 16, 32, 32, 32, 32, 64)",elu,relu,RMSprop,mse,6385,1,-5.7439
+7,"(16, 16, 32, 32, 32, 128, 256)",linear,linear,adam,mae,40657,70,0.7893
+7,"(16, 16, 32, 32, 64, 128, 128)",relu,linear,adam,mape,29169,89,0.8924
+7,"(16, 16, 32, 64, 256, 256, 256)",elu,relu,adam,mae,151633,79,0.8598
+7,"(16, 16, 32, 128, 256, 256, 256)",elu,relu,adam,mae,170129,90,0.8659
+7,"(16, 16, 32, 128, 256, 256, 256)",elu,elu,RMSprop,mape,170129,94,0.8633
+7,"(16, 16, 64, 64, 128, 128, 256)",elu,elu,RMSprop,mae,63857,85,0.8574
+7,"(16, 16, 64, 64, 256, 256, 256)",linear,linear,SGD,mape,154225,1,
+7,"(16, 16, 64, 64, 256, 256, 256)",relu,elu,adam,mape,154225,94,0.8383
+7,"(16, 16, 64, 128, 128, 128, 128)",linear,relu,adam,mae,59569,64,0.7926
+7,"(16, 16, 64, 128, 128, 128, 128)",elu,elu,RMSprop,mse,59569,96,0.8846
+7,"(16, 32, 32, 32, 32, 32, 32)",linear,linear,adam,mape,6081,34,0.7293
+7,"(16, 32, 32, 32, 32, 32, 32)",elu,linear,SGD,mse,6081,1,
+7,"(16, 32, 32, 32, 32, 32, 64)",elu,relu,SGD,mae,7169,88,0.8677
+7,"(16, 32, 32, 32, 64, 64, 64)",elu,linear,SGD,mae,13377,88,0.865
+7,"(16, 32, 32, 32, 64, 64, 256)",relu,relu,SGD,mape,26049,91,0.8368
+7,"(16, 32, 32, 32, 128, 128, 128)",linear,relu,SGD,mae,40257,93,0.7551
+7,"(16, 32, 32, 32, 256, 256, 256)",elu,elu,RMSprop,mape,143169,100,0.7805
+7,"(16, 32, 32, 64, 64, 64, 256)",linear,elu,RMSprop,mape,29153,82,0.7308
+7,"(16, 32, 32, 64, 64, 128, 256)",linear,relu,SGD,mae,49697,1,-5.7439
+7,"(16, 32, 32, 64, 64, 256, 256)",elu,linear,adam,mse,90785,100,0.8954
+7,"(16, 32, 32, 128, 256, 256, 256)",elu,linear,RMSprop,mape,170913,95,0.8553
+7,"(16, 32, 64, 64, 64, 64, 64)",relu,relu,adam,mape,19585,89,0.8621
+7,"(16, 32, 64, 64, 64, 64, 256)",elu,relu,SGD,mae,32257,98,0.8691
+7,"(16, 32, 64, 64, 64, 128, 128)",linear,linear,RMSprop,mape,36161,82,0.736
+7,"(16, 32, 64, 64, 64, 128, 256)",linear,elu,SGD,mape,52801,3,
+7,"(16, 32, 64, 64, 128, 128, 128)",linear,linear,adam,mape,48513,34,0.7236
+7,"(16, 32, 64, 64, 128, 128, 256)",linear,linear,SGD,mape,65153,85,0.7188
+7,"(16, 32, 128, 128, 128, 128, 128)",linear,linear,SGD,mse,71169,1,
+7,"(16, 32, 128, 128, 128, 128, 256)",linear,relu,SGD,mae,87809,1,-5.7439
+7,"(16, 64, 64, 64, 64, 256, 256)",relu,elu,adam,mape,96481,74,0.8299
+7,"(16, 64, 64, 64, 128, 256, 256)",elu,elu,RMSprop,mse,117025,99,0.9111
+7,"(16, 64, 64, 64, 256, 256, 256)",linear,linear,SGD,mape,158113,68,0.7074
+7,"(16, 64, 64, 128, 128, 128, 256)",elu,linear,RMSprop,mape,80097,83,0.851
+7,"(16, 64, 128, 128, 128, 128, 128)",linear,elu,adam,mae,75809,79,0.7935
+7,"(16, 64, 128, 128, 128, 256, 256)",linear,elu,SGD,mse,141729,1,
+7,"(16, 64, 128, 128, 256, 256, 256)",relu,elu,adam,mse,191009,96,0.931
+7,"(16, 64, 256, 256, 256, 256, 256)",relu,relu,adam,mse,281377,92,0.9251
+7,"(16, 128, 128, 128, 128, 128, 128)",linear,elu,SGD,mape,85089,2,-4.2295
+7,"(16, 128, 128, 128, 128, 256, 256)",relu,linear,SGD,mse,151009,12,0.0384
+7,"(16, 128, 128, 128, 256, 256, 256)",relu,elu,RMSprop,mae,200289,94,0.9059
+7,"(32, 32, 32, 32, 32, 32, 256)",relu,elu,RMSprop,mape,14433,98,0.8417
+7,"(32, 32, 32, 32, 32, 128, 256)",elu,relu,RMSprop,mae,42177,80,0.8593
+7,"(32, 32, 32, 32, 64, 128, 256)",relu,relu,SGD,mape,47329,96,0.8435
+7,"(32, 32, 32, 32, 64, 128, 256)",elu,relu,SGD,mape,47329,87,0.855
+7,"(32, 32, 32, 32, 64, 256, 256)",linear,linear,adam,mae,88417,25,0.7901
+7,"(32, 32, 32, 64, 64, 128, 128)",elu,relu,SGD,mape,33793,88,0.8482
+7,"(32, 32, 32, 64, 64, 256, 256)",relu,linear,adam,mape,91521,80,0.8694
+7,"(32, 32, 32, 64, 128, 128, 128)",linear,elu,SGD,mape,46145,4,
+7,"(32, 32, 32, 64, 128, 256, 256)",linear,linear,adam,mape,112065,34,0.7416
+7,"(32, 32, 32, 256, 256, 256, 256)",elu,elu,SGD,mae,208641,99,0.8675
+7,"(32, 32, 64, 64, 64, 64, 64)",elu,elu,SGD,mape,20321,83,0.8625
+7,"(32, 32, 64, 64, 64, 64, 256)",relu,elu,SGD,mae,32993,96,0.8751
+7,"(32, 32, 64, 64, 64, 128, 128)",linear,elu,SGD,mse,36897,1,
+7,"(32, 32, 64, 64, 128, 128, 128)",elu,elu,RMSprop,mape,49249,80,0.8744
+7,"(32, 32, 128, 128, 128, 256, 256)",linear,elu,adam,mae,137825,11,0.7978
+7,"(32, 32, 256, 256, 256, 256, 256)",relu,elu,RMSprop,mse,273377,96,0.9309
+7,"(32, 64, 64, 64, 64, 128, 256)",elu,linear,adam,mse,56641,98,0.9052
+7,"(32, 64, 64, 64, 64, 256, 256)",elu,linear,RMSprop,mse,97729,93,0.9056
+7,"(32, 64, 64, 64, 128, 128, 256)",elu,linear,RMSprop,mae,68993,46,0.8694
+7,"(32, 64, 64, 64, 128, 256, 256)",relu,linear,RMSprop,mae,118273,97,0.8801
+7,"(32, 64, 64, 256, 256, 256, 256)",relu,linear,SGD,mae,220993,100,0.8672
+7,"(32, 256, 256, 256, 256, 256, 256)",linear,linear,RMSprop,mse,338113,58,0.7948
+7,"(64, 64, 64, 64, 64, 128, 128)",linear,relu,SGD,mae,42497,78,0.7743
+7,"(64, 64, 64, 64, 64, 256, 256)",relu,elu,RMSprop,mae,100225,97,0.9272
+7,"(64, 64, 64, 64, 256, 256, 256)",linear,relu,SGD,mae,161857,93,0.766
+7,"(64, 64, 64, 128, 128, 256, 256)",elu,linear,SGD,mse,133121,1,
+7,"(64, 64, 64, 128, 256, 256, 256)",relu,relu,RMSprop,mae,182401,80,0.9248
+7,"(64, 64, 64, 128, 256, 256, 256)",relu,elu,SGD,mse,182401,1,-0.2268
+7,"(64, 64, 128, 128, 128, 256, 256)",relu,linear,adam,mape,145473,99,0.8966
+7,"(64, 128, 128, 128, 256, 256, 256)",linear,elu,adam,mae,207105,79,0.7994
+7,"(64, 128, 128, 128, 256, 256, 256)",relu,linear,adam,mape,207105,96,0.9247
+7,"(128, 128, 128, 128, 256, 256, 256)",linear,elu,RMSprop,mape,216193,73,0.7409
+7,"(128, 128, 128, 128, 256, 256, 256)",elu,elu,RMSprop,mae,216193,80,0.8795
+7,"(128, 128, 128, 256, 256, 256, 256)",elu,elu,adam,mae,265473,98,0.8724
+8,"(16, 16, 16, 16, 16, 16, 32, 128)",relu,linear,RMSprop,mae,6481,100,0.8566
+8,"(16, 16, 16, 16, 16, 32, 32, 256)",linear,linear,SGD,mape,11617,1,
+8,"(16, 16, 16, 16, 16, 32, 64, 256)",elu,linear,SGD,mape,20865,72,0.8573
+8,"(16, 16, 16, 16, 16, 32, 64, 256)",elu,elu,adam,mape,20865,96,0.8463
+8,"(16, 16, 16, 16, 16, 32, 128, 256)",relu,elu,RMSprop,mse,39361,95,0.9028
+8,"(16, 16, 16, 16, 16, 64, 128, 128)",elu,relu,adam,mape,27361,93,0.8467
+8,"(16, 16, 16, 16, 32, 32, 32, 128)",relu,elu,adam,mae,8049,100,0.8663
+8,"(16, 16, 16, 16, 32, 32, 64, 64)",elu,elu,RMSprop,mape,8977,100,0.8277
+8,"(16, 16, 16, 16, 32, 32, 256, 256)",linear,relu,adam,mape,77137,72,0.733
+8,"(16, 16, 16, 16, 32, 64, 64, 128)",elu,linear,adam,mape,16305,95,0.8502
+8,"(16, 16, 16, 16, 32, 64, 64, 256)",relu,relu,RMSprop,mape,24753,100,0.8371
+8,"(16, 16, 16, 16, 32, 128, 128, 128)",elu,elu,SGD,mse,38961,1,-6.2516
+8,"(16, 16, 16, 16, 32, 128, 128, 256)",elu,elu,adam,mape,55601,94,0.8568
+8,"(16, 16, 16, 32, 32, 32, 32, 128)",linear,linear,adam,mae,8833,70,0.7857
+8,"(16, 16, 16, 32, 32, 32, 64, 128)",relu,elu,adam,mape,13985,83,0.8684
+8,"(16, 16, 16, 32, 32, 64, 64, 64)",relu,elu,RMSprop,mape,12865,100,0.8372
+8,"(16, 16, 16, 32, 32, 64, 64, 256)",relu,relu,adam,mape,25537,100,0.8522
+8,"(16, 16, 16, 32, 32, 128, 128, 128)",relu,elu,SGD,mae,39745,97,0.8438
+8,"(16, 16, 16, 32, 64, 256, 256, 256)",relu,relu,SGD,mae,151905,89,0.8415
+8,"(16, 16, 16, 32, 128, 128, 128, 128)",linear,linear,SGD,mse,55201,1,
+8,"(16, 16, 16, 32, 128, 128, 256, 256)",elu,elu,SGD,mape,121121,95,0.8529
+8,"(16, 16, 16, 64, 64, 64, 64, 64)",linear,elu,adam,mae,18561,32,0.7902
+8,"(16, 16, 16, 64, 64, 64, 64, 64)",relu,linear,adam,mse,18561,97,0.9143
+8,"(16, 16, 16, 64, 64, 64, 64, 64)",elu,linear,SGD,mae,18561,79,0.8652
+8,"(16, 16, 16, 64, 64, 64, 64, 64)",elu,relu,RMSprop,mape,18561,81,0.8426
+8,"(16, 16, 16, 64, 64, 64, 64, 128)",linear,relu,adam,mape,22785,1,-5.7439
+8,"(16, 16, 16, 64, 64, 64, 64, 256)",relu,relu,RMSprop,mape,31233,100,0.8455
+8,"(16, 16, 32, 32, 32, 64, 128, 256)",linear,relu,adam,mape,46865,70,0.7397
+8,"(16, 16, 32, 32, 32, 128, 256, 256)",elu,elu,adam,mae,106449,96,0.8632
+8,"(16, 16, 32, 32, 128, 128, 128, 256)",relu,linear,SGD,mape,72625,75,0.8463
+8,"(16, 16, 32, 64, 64, 64, 64, 256)",elu,elu,adam,mse,32529,100,0.888
+8,"(16, 16, 32, 64, 64, 64, 128, 128)",linear,relu,adam,mape,36433,32,0.7408
+8,"(16, 16, 32, 64, 64, 128, 128, 128)",linear,linear,SGD,mape,48785,1,
+8,"(16, 16, 32, 64, 128, 128, 256, 256)",relu,linear,adam,mse,127057,60,0.9031
+8,"(16, 16, 32, 64, 256, 256, 256, 256)",linear,elu,RMSprop,mape,217425,73,0.7387
+8,"(16, 16, 32, 256, 256, 256, 256, 256)",relu,linear,RMSprop,mape,272913,100,0.8414
+8,"(16, 16, 64, 64, 64, 128, 128, 256)",linear,linear,SGD,mae,68017,74,0.7599
+8,"(16, 16, 64, 64, 128, 128, 128, 128)",linear,relu,RMSprop,mse,63729,81,0.7939
+8,"(16, 16, 64, 64, 128, 128, 256, 256)",linear,elu,adam,mae,129649,79,0.7847
+8,"(16, 16, 64, 64, 128, 256, 256, 256)",relu,elu,adam,mse,178929,55,0.9341
+8,"(16, 16, 64, 64, 256, 256, 256, 256)",elu,linear,SGD,mape,220017,95,0.8491
+8,"(16, 16, 64, 128, 128, 128, 128, 128)",elu,elu,RMSprop,mse,76081,96,0.9086
+8,"(16, 16, 64, 128, 128, 256, 256, 256)",relu,linear,adam,mse,191281,92,0.9252
+8,"(16, 16, 128, 128, 256, 256, 256, 256)",relu,elu,adam,mae,249841,89,0.9016
+8,"(16, 32, 32, 32, 32, 32, 32, 64)",relu,relu,adam,mse,8225,90,0.9096
+8,"(16, 32, 32, 32, 32, 32, 64, 256)",relu,linear,SGD,mse,24001,1,
+8,"(16, 32, 32, 32, 32, 32, 256, 256)",linear,relu,adam,mape,79489,38,0.7278
+8,"(16, 32, 32, 32, 32, 64, 64, 64)",linear,relu,adam,mae,14433,79,0.7866
+8,"(16, 32, 32, 32, 32, 128, 128, 256)",linear,elu,adam,mse,57953,38,0.7901
+8,"(16, 32, 32, 32, 32, 128, 256, 256)",linear,linear,SGD,mape,107233,1,
+8,"(16, 32, 32, 32, 64, 64, 64, 64)",elu,linear,SGD,mse,17537,1,
+8,"(16, 32, 32, 32, 64, 64, 64, 128)",linear,elu,RMSprop,mape,21761,69,0.7328
+8,"(16, 32, 32, 32, 64, 64, 64, 128)",relu,relu,RMSprop,mse,21761,96,0.9168
+8,"(16, 32, 32, 32, 64, 128, 128, 128)",relu,elu,SGD,mse,46465,1,-6.2516
+8,"(16, 32, 32, 32, 64, 128, 128, 128)",relu,elu,RMSprop,mape,46465,92,0.8446
+8,"(16, 32, 32, 32, 64, 128, 128, 256)",elu,linear,RMSprop,mape,63105,88,0.7927
+8,"(16, 32, 32, 64, 64, 64, 128, 128)",relu,relu,adam,mse,37217,94,0.914
+8,"(16, 32, 32, 64, 64, 64, 128, 256)",elu,linear,SGD,mse,53857,1,
+8,"(16, 32, 32, 64, 256, 256, 256, 256)",linear,linear,adam,mae,218209,38,0.7869
+8,"(16, 32, 32, 64, 256, 256, 256, 256)",linear,relu,SGD,mse,218209,1,-5.7439
+8,"(16, 32, 64, 64, 64, 64, 64, 256)",linear,elu,RMSprop,mae,36417,73,0.7841
+8,"(16, 32, 64, 64, 64, 64, 64, 256)",relu,linear,SGD,mse,36417,1,
+8,"(16, 32, 64, 64, 64, 64, 256, 256)",relu,relu,adam,mae,98049,92,0.9112
+8,"(16, 32, 64, 64, 64, 128, 256, 256)",linear,relu,adam,mse,118593,1,-5.7439
+8,"(16, 32, 64, 64, 128, 256, 256, 256)",elu,linear,RMSprop,mape,180225,83,0.8593
+8,"(16, 32, 128, 128, 128, 128, 128, 128)",relu,elu,adam,mse,87681,83,0.9047
+8,"(16, 64, 64, 64, 128, 128, 128, 128)",relu,linear,adam,mae,67617,94,0.9203
+8,"(16, 64, 128, 128, 128, 256, 256, 256)",relu,relu,SGD,mse,207521,1,-5.7439
+8,"(16, 128, 128, 256, 256, 256, 256, 256)",elu,linear,RMSprop,mae,315361,99,0.8655
+8,"(32, 32, 32, 32, 32, 32, 32, 64)",linear,relu,RMSprop,mse,8961,47,0.7969
+8,"(32, 32, 32, 32, 32, 64, 64, 64)",relu,linear,SGD,mape,15169,88,0.8497
+8,"(32, 32, 32, 32, 32, 64, 64, 64)",elu,elu,adam,mae,15169,84,0.8597
+8,"(32, 32, 32, 32, 64, 64, 64, 256)",linear,elu,SGD,mape,30945,1,-5.2966
+8,"(32, 32, 32, 32, 128, 256, 256, 256)",linear,relu,SGD,mse,172705,1,-5.7439
+8,"(32, 32, 32, 64, 64, 128, 128, 128)",linear,elu,SGD,mae,50305,81,0.7647
+8,"(32, 32, 32, 64, 64, 256, 256, 256)",relu,elu,SGD,mse,157313,1,-6.2516
+8,"(32, 32, 32, 64, 128, 128, 128, 128)",elu,elu,adam,mae,62657,44,0.8677
+8,"(32, 32, 32, 256, 256, 256, 256, 256)",relu,linear,SGD,mape,274433,94,0.8452
+8,"(32, 32, 64, 64, 64, 64, 128, 256)",relu,linear,RMSprop,mae,57697,97,0.9021
+8,"(32, 32, 64, 64, 128, 128, 128, 128)",elu,linear,adam,mse,65761,77,0.9084
+8,"(32, 32, 64, 128, 128, 256, 256, 256)",relu,linear,SGD,mae,193313,95,0.867
+8,"(32, 32, 64, 128, 128, 256, 256, 256)",relu,linear,RMSprop,mae,193313,100,0.8935
+8,"(32, 64, 64, 64, 64, 128, 256, 256)",relu,linear,SGD,mae,122433,88,0.8572
+8,"(32, 64, 64, 64, 128, 128, 128, 256)",relu,relu,RMSprop,mape,85505,97,0.8548
+8,"(32, 64, 64, 64, 128, 128, 128, 256)",elu,linear,RMSprop,mse,85505,94,0.8983
+8,"(32, 64, 64, 64, 128, 128, 256, 256)",elu,elu,adam,mse,134785,77,0.9091
+8,"(32, 64, 64, 128, 128, 128, 256, 256)",relu,elu,adam,mape,147137,77,0.8741
+8,"(32, 64, 64, 128, 128, 128, 256, 256)",elu,linear,adam,mse,147137,80,0.9052
+8,"(32, 64, 128, 128, 128, 128, 128, 128)",relu,elu,SGD,mse,93569,13,-0.0152
+8,"(32, 64, 256, 256, 256, 256, 256, 256)",linear,linear,SGD,mse,348417,1,
+8,"(32, 128, 128, 256, 256, 256, 256, 256)",linear,linear,SGD,mse,317633,1,
+8,"(64, 64, 64, 64, 64, 256, 256, 256)",relu,elu,adam,mape,166017,98,0.9123
+8,"(64, 64, 64, 128, 128, 256, 256, 256)",relu,linear,SGD,mae,198913,89,0.8638
+8,"(64, 64, 128, 128, 128, 128, 128, 128)",elu,relu,SGD,mape,96065,73,0.8484
+8,"(64, 64, 128, 128, 128, 128, 256, 256)",relu,relu,SGD,mape,161985,100,0.8445
+8,"(64, 64, 128, 128, 128, 256, 256, 256)",relu,relu,RMSprop,mae,211265,92,0.9237
+8,"(64, 64, 128, 128, 256, 256, 256, 256)",linear,linear,adam,mae,260545,13,0.7949
+8,"(64, 128, 128, 128, 128, 128, 128, 256)",linear,relu,adam,mape,125057,24,0.7529
+8,"(128, 128, 128, 128, 128, 256, 256, 256)",relu,relu,adam,mape,232705,84,0.8836
+8,"(128, 128, 128, 128, 128, 256, 256, 256)",elu,relu,adam,mae,232705,95,0.8799
+9,"(16, 16, 16, 16, 16, 16, 16, 16, 64)",linear,relu,RMSprop,mae,3281,1,-5.7439
+9,"(16, 16, 16, 16, 16, 16, 16, 256, 256)",linear,relu,SGD,mae,72257,81,0.7663
+9,"(16, 16, 16, 16, 16, 16, 32, 128, 256)",relu,linear,SGD,mse,39633,100,-510.782
+9,"(16, 16, 16, 16, 16, 16, 128, 128, 256)",elu,relu,SGD,mae,53553,89,0.8562
+9,"(16, 16, 16, 16, 16, 32, 32, 32, 32)",linear,elu,RMSprop,mape,5057,49,0.7352
+9,"(16, 16, 16, 16, 16, 32, 128, 256, 256)",linear,relu,adam,mse,105153,45,0.7895
+9,"(16, 16, 16, 16, 16, 64, 256, 256, 256)",relu,linear,RMSprop,mae,150881,87,0.8642
+9,"(16, 16, 16, 16, 16, 128, 128, 256, 256)",linear,elu,adam,mape,119073,34,0.7337
+9,"(16, 16, 16, 16, 16, 128, 128, 256, 256)",relu,linear,adam,mape,119073,99,0.8514
+9,"(16, 16, 16, 16, 32, 32, 32, 32, 64)",linear,relu,SGD,mse,6929,1,-5.7439
+9,"(16, 16, 16, 16, 32, 32, 64, 64, 256)",relu,elu,RMSprop,mae,25809,88,0.8693
+9,"(16, 16, 16, 16, 32, 64, 64, 128, 256)",elu,relu,SGD,mae,49457,97,0.8565
+9,"(16, 16, 16, 16, 64, 64, 64, 128, 128)",relu,linear,SGD,mse,35409,86,-0.0203
+9,"(16, 16, 16, 16, 64, 64, 128, 128, 128)",relu,relu,SGD,mse,47761,3,-0.0152
+9,"(16, 16, 16, 16, 64, 64, 128, 128, 128)",relu,relu,adam,mape,47761,99,0.8516
+9,"(16, 16, 16, 16, 64, 128, 128, 128, 256)",relu,linear,adam,mae,76753,88,0.8919
+9,"(16, 16, 16, 32, 64, 64, 64, 128, 128)",elu,linear,adam,mse,36705,100,0.8819
+9,"(16, 16, 16, 128, 128, 128, 128, 256, 256)",linear,linear,RMSprop,mse,151553,58,0.7789
+9,"(16, 16, 32, 32, 32, 32, 128, 256, 256)",relu,linear,adam,mse,107505,49,0.9208
+9,"(16, 16, 32, 32, 32, 64, 64, 64, 64)",linear,relu,SGD,mae,17809,82,0.7672
+9,"(16, 16, 32, 32, 32, 64, 128, 256, 256)",relu,relu,SGD,mse,112657,1,-5.7439
+9,"(16, 16, 32, 32, 32, 64, 256, 256, 256)",relu,linear,adam,mae,153745,99,0.9077
+9,"(16, 16, 32, 32, 32, 256, 256, 256, 256)",relu,relu,SGD,mape,209233,85,0.8271
+9,"(16, 16, 32, 32, 64, 64, 64, 64, 64)",elu,elu,RMSprop,mse,20913,96,0.9006
+9,"(16, 16, 32, 32, 64, 64, 128, 128, 128)",linear,linear,RMSprop,mse,49841,91,0.7895
+9,"(16, 16, 32, 32, 64, 256, 256, 256, 256)",elu,relu,adam,mse,218481,99,0.9077
+9,"(16, 16, 32, 32, 256, 256, 256, 256, 256)",elu,relu,RMSprop,mae,273969,92,0.8622
+9,"(16, 16, 32, 64, 64, 64, 64, 64, 64)",linear,elu,SGD,mae,24017,93,0.7729
+9,"(16, 16, 32, 64, 64, 64, 64, 256, 256)",linear,relu,RMSprop,mse,98321,58,0.7896
+9,"(16, 16, 32, 64, 64, 64, 256, 256, 256)",linear,linear,SGD,mse,159953,1,
+9,"(16, 16, 32, 64, 64, 128, 128, 128, 256)",elu,linear,RMSprop,mae,81937,73,0.8569
+9,"(16, 16, 32, 128, 128, 128, 128, 256, 256)",relu,linear,RMSprop,mae,153873,97,0.8765
+9,"(16, 16, 32, 128, 128, 256, 256, 256, 256)",linear,linear,SGD,mae,252433,88,0.7704
+9,"(16, 16, 32, 256, 256, 256, 256, 256, 256)",linear,linear,SGD,mape,338705,1,
+9,"(16, 16, 64, 64, 64, 64, 64, 64, 256)",linear,elu,adam,mae,39281,27,0.7905
+9,"(16, 16, 64, 64, 64, 64, 128, 128, 128)",relu,relu,adam,mape,55537,94,0.8939
+9,"(16, 16, 64, 64, 64, 64, 128, 128, 256)",elu,relu,RMSprop,mae,72177,92,0.8601
+9,"(16, 16, 64, 64, 128, 128, 128, 256, 256)",elu,relu,adam,mape,146161,76,0.8591
+9,"(16, 16, 64, 128, 128, 128, 128, 128, 128)",elu,elu,RMSprop,mse,92593,96,0.904
+9,"(16, 16, 64, 128, 128, 128, 256, 256, 256)",elu,linear,SGD,mae,207793,97,0.8715
+9,"(16, 32, 32, 32, 32, 32, 32, 256, 256)",relu,linear,RMSprop,mae,80545,80,0.866
+9,"(16, 32, 32, 32, 32, 32, 64, 64, 256)",elu,relu,adam,mae,28161,79,0.8658
+9,"(16, 32, 32, 32, 32, 32, 128, 256, 256)",relu,linear,SGD,mse,108289,1,
+9,"(16, 32, 32, 32, 32, 32, 256, 256, 256)",linear,relu,adam,mape,145281,34,0.7235
+9,"(16, 32, 32, 32, 32, 64, 64, 256, 256)",relu,linear,SGD,mape,92897,94,0.6371
+9,"(16, 32, 32, 32, 32, 64, 128, 128, 256)",linear,relu,SGD,mae,64161,82,0.764
+9,"(16, 32, 32, 32, 64, 64, 64, 128, 128)",linear,linear,SGD,mae,38273,93,0.7683
+9,"(16, 32, 32, 32, 64, 64, 128, 128, 256)",linear,elu,RMSprop,mae,67265,73,0.7729
+9,"(16, 32, 32, 32, 64, 128, 128, 128, 128)",relu,relu,adam,mape,62977,89,0.858
+9,"(16, 32, 32, 32, 128, 128, 128, 128, 256)",elu,elu,adam,mse,89921,93,0.8988
+9,"(16, 32, 32, 64, 64, 64, 128, 128, 256)",relu,linear,RMSprop,mae,70369,97,0.8816
+9,"(16, 32, 32, 128, 128, 128, 128, 128, 128)",relu,relu,RMSprop,mae,88737,97,0.8952
+9,"(16, 32, 32, 128, 128, 128, 128, 256, 256)",relu,linear,SGD,mae,154657,100,0.8513
+9,"(16, 32, 64, 64, 64, 64, 64, 64, 64)",linear,linear,adam,mape,27905,34,0.7242
+9,"(16, 32, 64, 64, 64, 128, 128, 128, 128)",relu,linear,SGD,mape,69185,98,0.8245
+9,"(16, 32, 64, 64, 128, 128, 128, 256, 256)",relu,relu,adam,mse,147457,100,0.9233
+9,"(16, 32, 64, 128, 128, 128, 128, 256, 256)",relu,elu,RMSprop,mse,159809,96,0.8996
+9,"(16, 32, 64, 128, 128, 128, 256, 256, 256)",relu,linear,RMSprop,mape,209089,100,0.8898
+9,"(16, 32, 128, 128, 128, 128, 128, 128, 256)",linear,elu,SGD,mse,120833,1,
+9,"(16, 32, 128, 128, 128, 128, 128, 128, 256)",elu,elu,RMSprop,mae,120833,80,0.8597
+9,"(16, 32, 128, 256, 256, 256, 256, 256, 256)",relu,linear,RMSprop,mape,367233,93,0.8843
+9,"(16, 64, 64, 64, 64, 64, 64, 128, 128)",relu,elu,adam,mae,47073,99,0.9194
+9,"(16, 64, 64, 64, 64, 64, 128, 128, 256)",elu,relu,SGD,mae,76065,78,0.8591
+9,"(16, 64, 64, 64, 128, 128, 128, 128, 128)",relu,relu,RMSprop,mape,84129,100,0.8281
+9,"(16, 64, 64, 64, 256, 256, 256, 256, 256)",linear,linear,adam,mse,289697,30,0.7907
+9,"(16, 64, 64, 64, 256, 256, 256, 256, 256)",relu,elu,adam,mae,289697,99,0.9272
+9,"(16, 64, 64, 128, 128, 256, 256, 256, 256)",linear,relu,RMSprop,mse,260961,89,0.7834
+9,"(16, 64, 128, 128, 128, 128, 128, 128, 128)",relu,elu,RMSprop,mse,108833,97,0.9177
+9,"(16, 128, 128, 128, 128, 128, 256, 256, 256)",relu,elu,RMSprop,mse,233313,75,0.913
+9,"(16, 256, 256, 256, 256, 256, 256, 256, 256)",elu,linear,SGD,mae,465377,88,0.8718
+9,"(32, 32, 32, 32, 32, 64, 64, 64, 64)",linear,linear,RMSprop,mape,19329,49,0.733
+9,"(32, 32, 32, 32, 32, 64, 64, 64, 64)",relu,relu,RMSprop,mae,19329,99,0.8869
+9,"(32, 32, 32, 32, 32, 64, 128, 128, 256)",relu,relu,SGD,mae,64897,100,0.858
+9,"(32, 32, 32, 32, 32, 128, 128, 128, 256)",linear,relu,SGD,mae,75201,78,0.7703
+9,"(32, 32, 32, 32, 32, 128, 256, 256, 256)",elu,elu,SGD,mae,173761,98,0.8586
+9,"(32, 32, 32, 32, 32, 256, 256, 256, 256)",elu,relu,adam,mse,210753,96,0.9121
+9,"(32, 32, 32, 32, 64, 128, 256, 256, 256)",relu,elu,RMSprop,mape,178913,100,0.8566
+9,"(32, 32, 32, 32, 128, 128, 128, 128, 128)",linear,relu,adam,mae,74017,79,0.7967
+9,"(32, 32, 32, 32, 128, 256, 256, 256, 256)",elu,relu,SGD,mape,238497,75,0.847
+9,"(32, 32, 32, 64, 64, 64, 128, 256, 256)",relu,elu,RMSprop,mape,120385,88,0.8685
+9,"(32, 32, 32, 64, 128, 128, 128, 128, 256)",elu,linear,adam,mse,95809,99,0.903
+9,"(32, 32, 64, 64, 64, 64, 64, 64, 256)",linear,linear,SGD,mape,41313,1,
+9,"(32, 32, 64, 64, 64, 64, 128, 128, 128)",elu,relu,adam,mae,57569,94,0.8771
+9,"(32, 32, 64, 64, 64, 64, 128, 128, 256)",linear,linear,RMSprop,mape,74209,49,0.7309
+9,"(32, 32, 128, 128, 256, 256, 256, 256, 256)",linear,elu,adam,mape,318689,20,0.7552
+9,"(32, 32, 128, 256, 256, 256, 256, 256, 256)",linear,linear,SGD,mae,367969,93,0.7707
+9,"(32, 64, 64, 64, 64, 64, 64, 64, 128)",relu,relu,adam,mse,35969,94,0.9243
+9,"(32, 64, 64, 64, 64, 128, 256, 256, 256)",relu,elu,RMSprop,mae,188225,97,0.8878
+9,"(32, 64, 64, 64, 64, 128, 256, 256, 256)",relu,elu,adam,mse,188225,91,0.9257
+9,"(32, 64, 64, 64, 128, 128, 256, 256, 256)",linear,elu,RMSprop,mse,200577,58,0.7923
+9,"(32, 64, 64, 256, 256, 256, 256, 256, 256)",elu,elu,RMSprop,mape,352577,83,0.8729
+9,"(32, 64, 128, 128, 128, 128, 128, 128, 256)",elu,relu,RMSprop,mae,126721,73,0.8793
+9,"(32, 128, 128, 128, 128, 128, 256, 256, 256)",linear,linear,RMSprop,mse,235585,89,0.7802
+9,"(64, 64, 64, 64, 64, 64, 64, 64, 128)",linear,relu,RMSprop,mse,38465,57,0.8013
+9,"(64, 64, 64, 64, 64, 64, 64, 64, 256)",linear,linear,SGD,mape,46913,1,
+9,"(64, 64, 64, 64, 64, 64, 64, 256, 256)",relu,elu,SGD,mse,108545,1,-6.2516
+9,"(64, 64, 64, 64, 64, 64, 256, 256, 256)",elu,elu,SGD,mae,170177,97,0.8631
+9,"(64, 128, 128, 128, 256, 256, 256, 256, 256)",elu,linear,adam,mape,338689,99,0.8668
+9,"(128, 128, 128, 128, 128, 128, 128, 256, 256)",relu,elu,RMSprop,mape,199937,100,0.8834
+9,"(128, 128, 128, 128, 128, 256, 256, 256, 256)",linear,elu,SGD,mae,298497,93,0.7687
